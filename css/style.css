@@ -3,7 +3,6 @@ body {
 }
 
 .header {
-    padding: 0px;
     background: black;
     display: flex;
     justify-content: space-between;
@@ -36,4 +35,38 @@ body {
     font-weight: bold;
     font-size: 75%;
     color: rgb(185, 185, 185);
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.home {
+    border: 1px solid red;
+    position: absolute;
+    top: 40%;
+    right: 40%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text button {
+    border-radius: 8px;
+    border: 0px;
+    background: magenta;
 }
