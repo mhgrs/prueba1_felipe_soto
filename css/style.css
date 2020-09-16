@@ -9,6 +9,25 @@
         align-items: center;
     }
     
+    .flag {
+        margin-left: 20px;
+        height: 10px;
+    }
+    
+    .flecha {
+        height: 10px;
+        margin-left: 5px;
+    }
+    
+    .line_right {
+        border-right: 1px solid grey;
+        padding-right: 10px;
+    }
+    
+    .left {
+        padding-left: 5px;
+    }
+    
     .titulo {
         display: flex;
         margin-left: 10%;
@@ -27,6 +46,7 @@
     
     .acerca {
         display: flex;
+        align-items: center;
         margin-right: 50px;
     }
     
@@ -66,7 +86,7 @@
         border: 0px;
         padding: 10px;
         border-radius: 8px;
-        background: rgb(255, 134, 184);
+        background: #FB6D9D;
         color: white;
         font-weight: bold;
         font-size: 10px;
@@ -90,7 +110,7 @@
     }
     
     .people {
-        background: rgb(245, 245, 247);
+        background: #EEF2F5;
         display: grid;
     }
     
@@ -98,7 +118,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10% 20% 5% 20%;
+        margin: 5% 20% 5% 20%;
     }
     
     .our h3 {
@@ -138,6 +158,7 @@
     
     .p_items img {
         width: 100%;
+        height: 150px;
     }
     
     .p_items p {
@@ -149,9 +170,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        text-align: center;
         align-items: center;
         color: white;
-        background: rgb(253, 109, 198);
+        background: #FB6D9D;
         padding: 20px 20px 20px 20px;
         color: rgb(240, 239, 239);
     }
@@ -162,12 +184,65 @@
         padding: 10px;
         font-size: 10px;
         font-weight: bold;
-        background: rgb(253, 63, 180);
+        background: #D85783;
         color: white;
     }
     
     .info {
         display: flex;
         justify-content: space-between;
-        padding: 10px 50px 10px 50px;
+        padding: 5% 30% 2% 10%;
+        font-size: 12px;
+    }
+    
+    .info h5 {
+        font-weight: bold;
+    }
+    
+    .info p {
+        font-size: 10px;
+        color: grey;
+    }
+    
+    .redes {
+        justify-content: flex-end;
+        display: flex;
+        margin-top: 40px;
+    }
+    
+    .redes img {
+        height: 22px;
+        margin-right: 10px;
+    }
+    
+    .footer {
+        margin-left: 10%;
+        margin-right: 10%;
+        color: grey;
+    }
+    
+    .cont {
+        border-top: 1px solid rgb(214, 212, 212);
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 5px;
+        color: grey;
+    }
+    
+    @media screen and (min-width: 768px) {
+        .p_items {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+        }
+        .trial {
+            display: flex;
+            flex-direction: row;
+        }
+        .trial button {
+            margin-left: 60px;
+        }
     }

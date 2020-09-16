@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
@@ -18,9 +19,12 @@
             <P>FEATURES</P>
             <P>PRICING</P>
             <P>ABOUT</P>
-            <P>CONTACT</P>
-            <P>LOGIN</P>
+            <P class="line_right">CONTACT</P>
+            <P class="left"> LOGIN</P>
             <P>SIGNUP</P>
+            <img class="flag" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAAilBMVEX////PFCsAJH3NABPtvcAAAHAAAHQAInwAEngAHnsAG3oAAHUAF3mwtMsAFHh7gqza3OYyQokADXeRl7mcob/r7PFTXpf39/nV1+PDxtcAAGlyeqfMz91DUJBgap6mq8WKkLRKVpPOAB4YLoE4R4sqPIYAB3bu7vNWYJgfM4MAAGS1uM7ijZNocaL7BZzkAAAHNklEQVR4nO2dbXuiOhCGObS8oyhVUGppu77V3e3//3sn2K21LjJAniR47dyfdq9zFuHGJDOTmFgWyfPG92wkztnF7+/+I7i7P/vfHeiNeP7mmX7+NuSlHyPvbCiKYr/MMYYEi9IF3tpAFLnlAiaoYlT4sHsbhCK/GEEFVbw4IahLMq/IC50XuCDB5HWMcWRckTd+nagwJJi5KeIOTStK3ZkiQUdJTih/i2YVhY5KQYJl5kq3NpOKPDdbqjUkWMWyY5tBRX68Ui5IMEmc4DYVBU6iqpu+JN+6MpIMKQrcLS6Yph2NniTyNiOKPP9ppNFQRTbunbeZUBSPM71+KhbvfVubfkWB+47Nx9rysN3dhqLd9kG3m0/2s15fJM2KAne2123mjOU0GrqiaKo+VmxmWXRObjUq8saFaUGCPFl3zNv0KQrXCWCgBxRvF4eoU5ekS1EQHQDj2LMVrQF92WjdJW/TpMhfA+qK+3VkiQ4fkLjskw5VEi2KQieRf/eTRAzZVhWaB4D0d/7UukqiQZHnPs3ln2kVVGmW9XHBN/l+Px+lLVMS9YriFJCPLd8+Xrr1cc3QmQG6/tJpJUm1otgp5Z8lPxVYrc/rph4gSJ+0ytvUKhL5GKAo9OCdyvQnRaK1lYhLH+i8Tami3QHxqsuzjtU6u3roPMpffU/PAChUJDoMQAzz+O0RrG+fEBeIbo6aAVCmCFK7z0fF9x7VuvgUNwO0tlXYWJNUpMjzQ0DwMskuly9cKqpaGyLkChq6bTWKggARAj/+3U38pUiMbVNA4D6Pr+dtKhQFUQyIFUfTmunmGkV2kLqA1nZ9BgCvqKrdy9/xxE3rXmudIiHpkMi/kzwL6iNJuKI4yORHmXlyqP/e1yuyvbED6PoWZe3YBlbkQdZSrZxrpcErio6JIKBeN/NrGjdWUeoDljEsG5Lwq4rE2ObOAD3ggxNcfjhQkRc4gGB6PnMbwt0GRbYHmVyZbC9Xt+EUeeEWkTRtd01hXJOiKiV8BNzCc/F9bEMp8vwCUFaePBKpd7MiMVi4iInel/T8iwxSFKYvgFvLXKqAQymy7fEUkbe9nnWHEEWe+4rIx6ZjUgCtSLS2KaDctopOMwAIRX4ECEryaZvyVgtFx6VL8mPb/LRyS14R+IYAisAvTVYR/GsNUQRt+pKK8J0jRhFyAJFSpGKIRSnChSEyipQEajBFsGA2PPtLR0WhknAfqOiYEgHKDmd/7qgIUKKpSRqRimxQYv1FR0XS1JYewIpA5ZlP9Cq6UsBCKwIV+f6gU9HVMiheEahUfESjor7L6XspQk04WBoVNU3JKFEEmrbSpqh5Yk+RItDkpx5FxPQwociR4Ofm1y0o+rX5KfOUsh8vi+646AZhRSSsiIQVkbAiElZEwopIWBEJKyJhRSS3oOjeLL9/UIp+/DZ8i9adWUhDwpHhW7ToW/zXYUUkrIiEFZGwIhJWRMKKSFgRCSsiYUUkrIiEFZGwIhJWRMKKSFgRCSsiYUUkrIiEFZGwIhJWRMKKSFgRCSsiYUUkrIiEFZGwIhJWRMKKSFgRCS/BIuGFfCTGl1rewHJQw7AiElZEwopIWBEJKyJhRSSsiIQVkbAikltQxBtikBti8LYq5LYqff8hb85DCeItnprhjcIoeLs5At60kIK3vmwGdKbE2Z+1b6Bad+oGUBFvw0sJ4s2cCXhLcALeWJ6Cjycg4EMuKEF8VAoBH7hD/Hc+tokP/5I7/IuPkKMUQQ4irDtTAnwQIeDUjX4HEfJxloQiPhSVUsRH6xKK+IBmShEf800o4sPiKUVuBmhjxOSnGkWg6eFJ5jYqigtEPpYRpRhFiqqxLUPkbcX3UeZckWhj0h9g7Wd/f1V1KaoeYSbfTVjfW9uXIhFeIIL5w454CqWKbHt3QCRN5wHdSVHqIS793qYAo1SRSL3fEa/aO41tfxSJLyigbFY6rSaE1SoSPapTyj9Lfuowjoo89w3RzaUtZ8xVKxKSUsSw8/bR2qxqsAwAg+W8IRHUrqhKwgGR5CqoghdLtF1EyJWQ45hWRVXXkSBCYNG3WtEaMEqO1i0nXPQpsm1/DUik9uvIApQ2F4duC8A0KRJ52wFQJQEIypN1+zamVZFobesEtlisP8viWilqAIpsb1wAaqdSLKdRx5vWq0gQTU1K2s/aBNOGFYkhG5G39eNhS+djA1Ak8jbEZFcPFq3ysUEoqvI24BLWtmTjPgt0DSkSKckYMfHegbzvMm9jio4zABoDgHzbt42ZU1S1tq0uR5OWS5eGpui4cgvx0x6SVdwlHxuUIpG3xYCiBgFZux+2IswMQCN07X7gio4FVpWC3M4/oKjDrCLbTl1VkiavnRPWekwrEsntq5Ju+8Xp9tOJ6xhXZHuh8wIXNCpkx7EvzCsS+AXqh5kfLMrLiW4ZBqHItpE/PcxLv3c+VsdAFNmxX4LC7eeNRD5Wx1AUibxt06Iy/T/1SwLsR3vq9gAAAABJRU5ErkJggg=="
+                alt="">
+            <img class="flecha" src="https://i7.uihere.com/icons/608/841/218/chevron-thin-down-a6b69bb629b1c815660ed0ef9dd8e715.png" alt="">
         </div>
 
 
@@ -107,15 +111,24 @@
             <p>Anchoo ApS <br> Danneskold-Samsoes Alle 41<br> Denmark
             </p>
             <p>Tel +45 24 47 48 78</p>
+            <div class="redes">
+                <img src="img/facebook-brands.svg" alt="">
+                <img src="https://image.flaticon.com/icons/png/512/49/49285.png" alt="">
+                <img src="https://image.flaticon.com/icons/png/512/36/36833.png" alt="">
+                <img src="https://image.flaticon.com/icons/png/512/7/7493.png" alt="">
+            </div>
         </div>
 
     </div>
-    <div class="redes">
 
-    </div>
-    <div class="footer">
 
+
+    <div class="cont">
+        <h2>Luigi's</h2>
+        <p>Luigi's ApS 2015</p>
     </div>
+
+
 
 
 </body>
