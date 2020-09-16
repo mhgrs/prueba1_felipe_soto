@@ -1,72 +1,173 @@
-body {
-    margin: 0px;
-}
-
-.header {
-    background: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.titulo {
-    display: flex;
-    margin-left: 10%;
-    align-items: baseline;
-}
-
-.titulo h1 {
-    color: white;
-}
-
-.titulo p {
-    color: grey;
-    margin-left: 8px;
-    font-size: 10px;
-}
-
-.acerca {
-    display: flex;
-    margin-right: 50px;
-}
-
-.acerca p {
-    margin-left: 8px;
-    font-weight: bold;
-    font-size: 75%;
-    color: rgb(185, 185, 185);
-}
-
-.container {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    align-content: center;
-    width: 100%;
-    border: 1px solid red;
-}
-
-.container img {
-    width: 100%;
-    height: 100%;
-}
-
-.home {
-    border: 1px solid red;
-    position: absolute;
-    top: 40%;
-    right: 40%;
-}
-
-.text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.text button {
-    border-radius: 8px;
-    border: 0px;
-    background: magenta;
-}
+    body {
+        margin: 0px;
+    }
+    
+    .header {
+        background: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .titulo {
+        display: flex;
+        margin-left: 10%;
+        align-items: baseline;
+    }
+    
+    .titulo h1 {
+        color: white;
+    }
+    
+    .titulo p {
+        color: grey;
+        margin-left: 8px;
+        font-size: 10px;
+    }
+    
+    .acerca {
+        display: flex;
+        margin-right: 50px;
+    }
+    
+    .acerca p {
+        margin-left: 8px;
+        font-weight: bold;
+        font-size: 75%;
+        color: rgb(185, 185, 185);
+    }
+    
+    .container {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+        height: 600px;
+    }
+    
+    .container img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .home {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .home h1 {
+        color: white;
+    }
+    
+    .home button {
+        border: 0px;
+        padding: 10px;
+        border-radius: 8px;
+        background: rgb(255, 134, 184);
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+    .mission {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10% 20% 10% 20%;
+    }
+    
+    .mission h3 {
+        font-weight: lighter;
+        color: rgb(56, 56, 56);
+    }
+    
+    .mission p {
+        color: grey;
+        text-align: center;
+    }
+    
+    .people {
+        background: rgb(245, 245, 247);
+        display: grid;
+    }
+    
+    .our {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10% 20% 5% 20%;
+    }
+    
+    .our h3 {
+        font-weight: lighter;
+        color: rgb(56, 56, 56);
+    }
+    
+    .our p {
+        color: grey;
+        text-align: center;
+    }
+    
+    .p_items {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    
+    .p1 {
+        padding: 10px;
+        width: 230px;
+    }
+    
+    .p2 {
+        padding: 10px;
+        width: 230px;
+    }
+    
+    .p3 {
+        padding: 10px;
+        width: 230px;
+    }
+    
+    .pi_tems h1 {
+        color: rgb(44, 44, 44);
+    }
+    
+    .p_items img {
+        width: 100%;
+    }
+    
+    .p_items p {
+        color: grey;
+        font-size: 12px;
+    }
+    
+    .trial {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background: rgb(253, 109, 198);
+        padding: 20px 20px 20px 20px;
+        color: rgb(240, 239, 239);
+    }
+    
+    .trial button {
+        border: 0px;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        background: rgb(253, 63, 180);
+        color: white;
+    }
+    
+    .info {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 50px 10px 50px;
+    }
