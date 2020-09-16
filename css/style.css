@@ -3,7 +3,11 @@ body {
 }
 
 .header {
+    padding: 0px;
     background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .titulo {
@@ -17,7 +21,19 @@ body {
 }
 
 .titulo p {
-    color: azure;
+    color: grey;
     margin-left: 8px;
     font-size: 10px;
+}
+
+.acerca {
+    display: flex;
+    margin-right: 50px;
+}
+
+.acerca p {
+    margin-left: 8px;
+    font-weight: bold;
+    font-size: 75%;
+    color: rgb(185, 185, 185);
 }
